@@ -6,6 +6,7 @@ import robotsTxt from 'astro-robots-txt';
 import sanity from '@sanity/astro';
 import sitemap from '@astrojs/sitemap';
 import netlify from '@astrojs/netlify';
+import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
