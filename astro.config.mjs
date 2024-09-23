@@ -27,14 +27,14 @@ export default defineConfig({
         robotsTxt(),
         sitemap(),
         sanity({
-            projectId: '<PROJECT ID HERE>',
+            projectId: 'xxxxxxxxx', // INSERT PROJECT ID HERE
             dataset: 'production',
             useCdn: false,
             apiVersion: '2024-05-14',
             studioBasePath: '/sanity-studio-admin',
         }),
         icon({
-            iconDir: "src/assets/svgs",
+            iconDir: 'src/assets/svgs',
         }),
     ],
     image: {
